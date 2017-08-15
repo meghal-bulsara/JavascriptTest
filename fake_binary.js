@@ -1,4 +1,4 @@
-function FakeBinary(number){
+function fakeBinary(number){
   output = ""
   numbers = number.split("");
   numbers.forEach(function(number){
@@ -10,4 +10,4 @@ function FakeBinary(number){
   });
   return output
 }
-module.exports = {FakeBinary}
+module.exports = {fakeBinary}

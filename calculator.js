@@ -7,6 +7,14 @@ function validate(a,b){
   }
 }
 
+var add = (a,b) => a + b;
+
+var subtract = (a,b) => a - b;
+
+var multiply = (a,b) => a * b;
+
+var divide = (a,b) => a/b
+
 function addition(a,b){
   if(validate(a,b)){
     return a+b;
@@ -48,4 +56,4 @@ function division(a,b){
     return "Invalid Data"
   }
 }
-module.exports = {addition, subtraction, multiplication, division}
+module.exports = {addition, subtraction, multiplication, division,add,subtract, multiply, divide}
